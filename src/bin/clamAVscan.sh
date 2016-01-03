@@ -26,7 +26,7 @@ then
 fi
 
 
-# Check file size is less then 2GB
+# Check file size is less than 2GB
 
 file_size=`ls -Ll ${TARGET} | awk '{print $5}'`
 file_size_tb=`echo "$file_size / 1024 / 1024 / 2048" | bc`
