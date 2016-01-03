@@ -4,7 +4,7 @@ Dependency : ClamAV Anti Virus
 
 Please adjush clamAVscan.sh : 
 
-```CLAMSCAN=``` _clamscan_path_
+CLAMSCAN=*clamscan_path*
 
 
 (e.g.  ```CLAMSCAN=/opt/csw/bin/clamscan```)
